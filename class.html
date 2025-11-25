@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title> moving text in h1</title>
+    
+        <style>
+            .color-change{
+                font-size:45px;
+                font-weight:bold;
+                animation:colorchange 2s linear infinite;
+            }
+            @keyframes colorchange{
+                2% {color:red;}
+                25% {color:blue;}
+                50% {color:green;}
+                75% {color:orange;}
+                100% {color:purple;}
+            }
+        </style>
+        </head>
+        <body
+        <h1>
+            <marquee direction="leftt"
+            scrollamount="8">
+            <img src="https://i.postimg.cc/f32GDGnD/ef77af810c44cd076de579be29d2cb18-0(1).jpg" class="'my-photo">
+            <span class="color-change">
+     राक्सिराङ्ग गाँउपालिका वार्ड नं.४ को सचिवको कार्यालय <br>
+        (राजेन्द्र सिंह विष्ट)
+        </span>
+        </marquee>
+        </h1>
+        <ul><li>जन्म दर्ता गर्न आवश्यक कागजात</li></ul>
+        <ol>
+            <li>अस्पताल/नर्सिङ होम/स्वास्थ्य चौकीले दिइको Birth certificate/जन्म तथ्याङ्क विवरण</li>
+            <li>घरमै जन्म भएको भए अनमी/सवास्थ्यकर्मीको सिफारिस वा स्थानीय तहले माग्ने विवरण</li>
+            <li>बाबुको नागरिकता (प्रतिलिपि)</li>
+            <li>आमाको नागरिकता (प्रतिलिपि)</li>
+            <li>बाबु आमाको विवाह दर्ता प्रमाणपत्र</li>
+            <li>नवजात शिशुको फोटो</li>
+        </ol>
+        <ul><li>मृत्यु दर्ता गर्दा आवश्यक कागजात</li></ul>
+        <ol>
+            <li>मृतकको नागरिकता प्रमाणपत्र अथवा नागरिकता प्रमाणपत्रको प्रतिलपि</li>
+            <li>सूचकको नागरिकता अथवा नागरिकताको प्रतिलिपि</li>
+            <Li>स्वास्थ्य संस्थाबाट मर्त्यु रिपोर्ट</Li>
+            <li>मृतकको नागरिकता भएन भने पहिचान खुल्ने अन्य प्रमाणपत्र</li>
+            
+        </ol>
+    </body>
+</html>
